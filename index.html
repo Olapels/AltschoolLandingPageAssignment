@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- This is the entire section -->
+    <div class="container">
+      <!-- The right section starts here -->
+      <div class="right_section">
+        <img
+              loading="lazy"
+              srcset="./assets/logo_top.png"
+              class="img"
+            />
+        <h1>For individuals</h1>
+        <h5>
+          start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness
+        </h5>
+      </div>
+      <!-- The right section ends here -->
+
+      <!-- The left section section starts here -->
+      <div class="left_section" id="form">
+        <section class="first_section">
+          <div class="first_name">
+            <label for="fname">First Name </label>
+            <input type="text" class="fname" name="fname" />
+          </div>
+          <div class="last_name">
+            <label for="lname">Last Name </label>
+            <input type="text" class="lname" name="lname" />
+          </div>
+        </section>
+        <section class="second_section">
+          <div class="gender">
+            <label for="gender"> Gender </label>
+            <select name="gender" aria-placeholder="Select Here" class="sgender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="date">
+            <label for="date">Date of Birth </label>
+            <input type="date" placeholder="Select Here" class="bdate" name="dob" />
+          </div>
+        </section>
+
+        <section class="third_section">
+            <div class="weight">
+                <label for="weight"> Weight(KG) </label>
+                <input type="text" class="gweight" placeholder="Enter weight">
+            </div>
+            <div class="height">
+                <label for="height"> Height(CM) </label>
+                <input type="text" placeholder="Enter height..."
+                class="gheight">
+            </div>
+        </section>
+
+
+        <section class="fourth_section">
+            <div class="activity">
+                <label for="activity"> Activity Level </label>
+                <select name="activity" aria-placeholder="Select Here..." id="activity">
+                  <option value="">Select Here</option>
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="fifth_section">
+            <div class="password">
+                <label for="password" id="password"> Password </label>
+                 <input type="password" id="password" name="password" />
+            </div>
+        </section>
+        
+        <section class="sixth_section">
+            <div class="Register">
+                <button>Register</button>
+            </div>
+        </section>
+
+        <section class="seventh_section">
+            <div class="register_link">
+                <p>
+                    <span class="clicking">
+                        By clicking Register, you agree to our
+                    </span>
+                    <span class="terms">
+                        Terms of Use
+                    </span>
+                    <span class="and">
+                        and our
+                    </span>
+                    <span class="privacy"> Privacy Policy</span>
+                </p>
+              </div>
+        </section>
+    
+      </div>
+      <!-- The left section ends here -->
+    </div>
+    <!-- the entire page ends here -->
+  </body>
+</html>
